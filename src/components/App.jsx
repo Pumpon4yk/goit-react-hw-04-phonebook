@@ -27,7 +27,7 @@ export default function App() {
     }
 
     setLocal(contacts);
-  }, [contacts]);
+  }, [contacts, firstLoad]);
 
   const createContact = obj => {
     obj.id = nanoid();
