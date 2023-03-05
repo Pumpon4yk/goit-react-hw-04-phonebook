@@ -32,7 +32,7 @@ const ContactForm = ({ setContact, contacts }) => {
   };
 
   const onSubmit = data => {
-    const {name, number} = data
+    const {name} = data;
 
     if (checkContscts(contacts, data)) {
           setContact(data);
